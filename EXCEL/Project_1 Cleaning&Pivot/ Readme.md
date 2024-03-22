@@ -6,9 +6,10 @@
 - [Data Sources](#Data-Sources)
 - [Tools](#Tools)
 - [Data Cleaning](#Data-Cleaning)
-- [EDA](#EDA)
+- [Exploratory Data Analysis (EDA)](#Exploratory_Data_Analysis (EDA))
 - [Data Analysis](#Data-Analysis)
 - [Results](#Results)
+- [Reccomandation](#Reccomandation)
 
 ### Project Overview
 
