@@ -24,7 +24,7 @@ All findings are presented within a dynamic dashboard for ease of analysis and v
 ### Data Sources
 
 
-Sales Data: The Primary dataset used for this analysis is the "sales_data.csv" which is in the sheet_1 of this excel.
+Sales Data: The Primary dataset used for this analysis is the "sales_data.csv". Unfortunately i had to split the files to comply with the allowed size
 
 
 ### Tools
