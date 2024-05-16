@@ -1,4 +1,4 @@
-# Cosimo Sansone Data Analyst Portfolio
+# Cosimo Sansone Portfolio
 
 ### About me
 
