@@ -5,6 +5,7 @@ use world_layoffs
 SELECT *
 FROM layoffs
 
+-------------------------------------------------------------------------------------------------------------------------------------
 -- Case Studi objectives:
 	
 -- 1. Remove Duplicates
@@ -26,6 +27,7 @@ INSERT layoffs_staging
 SELECT *
 FROM layoffs;
 
+---------------------------------------------------------------------------------------------------------------------------------------
 -- Identify duplicates
 
 SELECT *
@@ -100,6 +102,7 @@ SELECT *
 FROM layoffs_staging2;
 
 -- Duplicates removed
+-------------------------------------------------------------------------------------------------------------------------------------------
 -- STANDARDIZING DATA
 
 -- Remove unnecessary spaces and update the tables
@@ -156,6 +159,7 @@ FROM layoffs_staging2
 Alter table layoffs_staging2
 Modify Column `date` DATE;
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
 -- blank and NULL
 
 SELECT *
@@ -204,7 +208,7 @@ SET t1.industry = t2.industry
 WHERE t1.industry is NULL
 AND t2.industry is NOT NULL;
  
-
+------------------------------------------------------------------------------------------------------------------------------------------------------
 -- Delete unnecessary columns
 
 SELECT *
