@@ -20,7 +20,6 @@
   ---
 
 ### :man_technologist: About Me :
-<div id="header">
 I am an Analyst, currently employed in the banking sector <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExenZmYm5zN3U1eDIyYjNmcDc1OTRmdWszeW9qdGNkZ2tkZzU3bHc4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ww9Z3l8wl4szKyRIro/giphy.gif" width="30"> from Italy.
 
 - :telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
