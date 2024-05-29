@@ -35,3 +35,9 @@
 ---
 
 ### :hammer_and_wrench: Languages and Tools :
+<div>
+  <img src="https://github.com/sempostma/office365-icons/blob/master/svg/excel.svg" title="Excel" alt="Excel" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL" alt="MySQL" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/sempostma/office365-icons/blob/master/svg/outlook.svg" title="Outlook" alt="Outlook" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/sempostma/office365-icons/blob/master/svg/word.svg" title="Word" alt="Word" width="40" height="40"/>&nbsp;
+</div>
