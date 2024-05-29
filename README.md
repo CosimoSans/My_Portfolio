@@ -26,6 +26,8 @@
 
 - :seedling: My typical workday involves extensive Excel usage (especially SUM.IF, VLOOKUP, INDEX MATCH, and pivot tables) and SQL (SELECT, JOINS AND WHEREs).
 
-- :zap: In my free time, I solve problems on GeeksforGeeks and read tech articles.
+- :bar_chart: Interested in data analysis, I studied 'Decision Support Systems' for my thesis.
+
+- :telescope: Always striving to improve myself and learn new skills, and i would also like to move abroad.
 
 - :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cosimo-sansone993)
