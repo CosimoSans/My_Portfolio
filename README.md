@@ -18,4 +18,6 @@
 <div align="center">
   <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnM2YXQyNnJyeTZzcnZhZXVpdXd0Nzd1cmZvbHB0M3hrODg1ZjN2YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l46Cy1rHbQ92uuLXa/giphy.gif" width="450" height="300"/>
 </div>
-### :man_technologist: About Me :
+---
+
+### :woman_technologist: About Me :
