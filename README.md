@@ -21,12 +21,10 @@
   ---
 
 ### :man_technologist: About Me :
-- :chart_with_upwards_trend:	I am an Analyst, currently employed in the banking sector from Italy.
+- :chart_with_upwards_trend:	I am an Analyst, currently employed in the banking sector from :pushpin: Italy.
 <div id="header" align="left">
 
-- :telescope: I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
-
-- :seedling: Exploring Technical Content Writing.
+- :seedling: My typical workday involves extensive Excel usage (especially SUM.IF, VLOOKUP, INDEX MATCH, and pivot tables) and SQL (SELECT, JOINS AND WHEREs).
 
 - :zap: In my free time, I solve problems on GeeksforGeeks and read tech articles.
 
