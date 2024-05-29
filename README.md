@@ -4,7 +4,7 @@
 
 <div id="header" align="center">
   <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTg2c3M5cXE5MHZ0d2FreWoxa3lma28ybHZjOHlhaDl5Y3h6Mm0zZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPEqDGUULpEU0aQ/giphy.gif" width="200"/>
-</div>
+  </div>
 <div id="header" align="center">
 <div id="badges">
   <a href=https://www.linkedin.com/in/cosimo-sansone993>
@@ -15,6 +15,7 @@
 </h1>
 </a>
 </div>
+
 ---
 
 ### :man_technologist: About Me :
@@ -25,4 +26,4 @@ I am an Analyst, currently employed in the banking sector <img src="https://medi
 
 - :zap: In my free time, I solve problems on GeeksforGeeks and read tech articles.
 
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/cosimo-sansone993)
+- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cosimo-sansone993)
