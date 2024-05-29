@@ -7,7 +7,6 @@
 </div>
 <div id="header" align="center">
 <div id="badges">
-<img src="https://komarev.com/ghpvc/?username=CosimoSans&style=flat-square&color=blue" alt=""/>
   <a href=https://www.linkedin.com/in/cosimo-sansone993>
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
