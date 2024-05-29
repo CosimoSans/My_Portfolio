@@ -31,3 +31,7 @@
 - :telescope: Always striving to improve myself and learn new skills, and i would also like to move abroad.
 
 - :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/cosimo-sansone993)
+
+---
+
+### :hammer_and_wrench: Languages and Tools :
