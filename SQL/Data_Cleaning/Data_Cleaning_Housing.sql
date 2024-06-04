@@ -1,7 +1,34 @@
-Use nashville;
+-- DATA CLEANING
 
+Use Nashville
 
--- date
+SELECT *
+FROM Nashville_housing
+
+-- first of all: let's create a new table in order to modify and clean the data without changing the original table
+
+CREATE TABLE nashville_staging
+LIKE Nashville_housing;
+
+SELECT *
+FROM nashville_staging
+
+INSERT nashville_staging
+SELECT *
+FROM Nashville_housing;
+-------------------------------------------------------------------------------------------------------------------------------------
+-- Study Case objectives:
+	
+-- 1. Change the date Format
+-- 2. Standardize the Data accross columns
+-- 3. Remove Duplicates
+-- 4. Manage blank cells
+-- 5. Split the address into street, city and state 
+-- 6. Remove unnecessary columns
+
+-- SQL skills involved: string functions, Set-Case, CTE's, date manipulation, aggregate functions, string manipulation
+
+-- 1. Date Format
 
 SELECT SaleDate
 FROM nashville_staging;
@@ -23,13 +50,8 @@ FROM nashville_staging;
 
 -- we went from 'Semptember 3,2020' to '2020-09-03'
 
--- dividere property address in address, city, state
-
-
-SELECT DISTINCT SoldAsVacant
-FROM nashville_staging;
-
--- notiamo che ci sono anche N e Y
+-------------------------------------------------------------------------------------------------------------------------------------
+-- 2. Standardize the Data accross columns
 
 SELECT SoldAsVacant
 , CASE 
@@ -46,9 +68,9 @@ SET SoldAsVacant = CASE
 	ELSE SoldAsVacant
 	END;
     
---
+-------------------------------------------------------------------------------------------------------------------------------------
 
--- duplicates
+-- 3. Remove Duplicates
 
 SELECT *,
 ROW_NUMBER() OVER(
@@ -65,11 +87,8 @@ SELECT *
 FROM duplicate_cte
 WHERE row_num > 1;
 
-/* ora se fosse sql normale, basterebbe:
-DELETE
-FROM duplicate_cte
-WHERE row_num > 1;
-ma non si può in mySQL, quindi devo modificare a mano la tabella iniziale*/
+-- now i should delete them, but in mysql i can't delete from CTE 
+-- i need to create another table and delete from there, using the create table menu in wich i manually insert the new table staging2
 
 CREATE TABLE `nashville_staging2` (
   `UniqueID` int DEFAULT NULL,
@@ -111,7 +130,9 @@ WHERE row_num > 1;
 SELECT *
 FROM nashville_staging2;
 
--- blank propertyaddress
+-------------------------------------------------------------------------------------------------------------------------------------
+-- 4. Manage blank cells
+-- i set the blank cells equal to the address of the owner of that house
 
 SELECT *
 FROM nashville_staging2
@@ -121,16 +142,17 @@ UPDATE nashville_staging2
 SET Propertyaddress = owneraddress
 where Propertyaddress = '';
 
+-------------------------------------------------------------------------------------------------------------------------------------
+-- 5. Split the address into street, city and state 
 
--- dividere property address in indirizzo, stato e paese
-
--- aggiungere nuove colonne
+-- add some columns
 ALTER table nashville_staging2
 Add column address varchar(255),
 add column city varchar (100),
 add column state varchar (50);
 
--- aggiornare le nuove colonne con i dati estratti
+--'Locate' because it's on mysql
+
 SELECT
 SUBSTRING(PropertyAddress, 1, LOCATE(',', PropertyAddress) -1) as Address,
 SUBSTRING(PropertyAddress, LOCATE(',', PropertyAddress) +1) as City
@@ -149,7 +171,7 @@ UPDATE nashville_staging2
 SET City = SUBSTRING(PropertyAddress, LOCATE(',', PropertyAddress) +1);
 -- Input the data for the split city column.
 
-SElect city as originalcity,
+SElECT city as originalcity,
 TRIM(substring_index(city,',',1))
 AS extractedcity
 FROM nashville_staging2;
@@ -158,8 +180,8 @@ UPDATE nashville_staging2
 SET city = TRIM(substring_index(city,',',1));
 
 
-
--- rimuovere colonne superflue
+-------------------------------------------------------------------------------------------------------------------------------------
+-- 6. Remove unnecessary columns
 
 SELECT *
 FROM nashville_staging2;
@@ -168,7 +190,7 @@ FROM nashville_staging2;
 ALTER TABLE nashville_staging2
 DROP COLUMN propertyaddress;
 
--- spostamento colonne create da in coda alla tabella all'inizio
+-- Lastly, i decided to move the last 3 columns i created to the beginning of the table. In order to have a more organized table.
 
 ALTER table nashville_staging2
 ADD column PropertyAddress varchar(100) After LandUse;
