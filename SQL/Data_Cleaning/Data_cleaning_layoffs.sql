@@ -6,7 +6,7 @@ SELECT *
 FROM layoffs
 
 -------------------------------------------------------------------------------------------------------------------------------------
--- Case Studi objectives:
+-- Case Study objectives:
 	
 -- 1. Remove Duplicates
 -- 2. Standardize the Data
