@@ -11,18 +11,22 @@ while in the Eda folder you can find a more extensive exploratory analysis.
 ## Data Cleaning
 
 Subjects Covered:
-* String manipulation: 
-* Date manipulation
-* Aggregate functions
+* Basic SQL: Select,Where, complex queries 
+* Data manipulation: Insert, Update, Delete
+* Data definition
+* Date format manipulation
+* Quering with group by, having, order by
 * CTE's
 * Joins
-* Window Functions: over, dense_rank, row_number
+* Window Functions: over, row_number
 
 ## EDA (Exploratory Data Analysis
 
 Subjects Covered:
-* Grouo By - Order by
-* Aggregate Functions
+* Basic SQL: Select,Where, complex queries 
+* Data manipulation: Insert, Update, Delete
+* Quering with group by, having, order by, SUBQUERIES
+* DATA Aggregation Functions: SUM, AVG
 * Alias
 * CTE's
 * Data Analysis
