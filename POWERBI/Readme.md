@@ -1,4 +1,5 @@
-  <img src="https://github.com/microsoft/PowerBI-Icons/blob/main/SVG/Power-BI.svg" title="Power-BI" alt="Power-BI" width="50" height="50"/>&nbsp;
+<div id="header" align="center">
+<img src="https://github.com/microsoft/PowerBI-Icons/blob/main/SVG/Power-BI.svg" title="Power-BI" alt="Power-BI" width="50" height="50"/>&nbsp;
 
 
 ## PowerBI: Project 1
