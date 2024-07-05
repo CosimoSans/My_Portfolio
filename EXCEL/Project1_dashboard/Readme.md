@@ -1,5 +1,9 @@
+<div id="header" align="center">
+<img src="https://github.com/sempostma/office365-icons/blob/master/svg/excel.svg" title="Excel" alt="Excel" width="50" height="50"/>&nbsp;
+
 
 # Excel Project_1
+<div id="header" align="left">
 
 ## Data Cleaning & Pivot Table
 
