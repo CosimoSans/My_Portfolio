@@ -1,3 +1,6 @@
+  <img src="https://github.com/microsoft/PowerBI-Icons/blob/main/SVG/Power-BI.svg" title="Power-BI" alt="Power-BI" width="50" height="50"/>&nbsp;
+
+
 ## PowerBI: Project 1
 
 For this Power BI project, I considered the results of a survey regarding the data analyst profession and created a dashboard suggesting what I believe to be the most relevant information:
