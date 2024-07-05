@@ -1,4 +1,4 @@
-##PowerBI: Project 1
+## PowerBI: Project 1
 
 For this Power BI project, I considered the results of a survey regarding the data analyst profession and created a dashboard suggesting what I believe to be the most relevant information:
 * It is a profession for both genders: there are no significant differences between men and women.
