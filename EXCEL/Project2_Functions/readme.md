@@ -1,5 +1,6 @@
 <div id="header" align="center">
   <img src="https://github.com/sempostma/office365-icons/blob/master/svg/excel.svg" title="Excel" alt="Excel" width="50" height="50"/>&nbsp;
+  
 ## EXCEL: PROJECT 2
   <div id="header" align="left">
 
