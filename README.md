@@ -13,11 +13,11 @@ Hello  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" wid
 - :chart_with_upwards_trend:	I am an Analyst, currently employed in the banking sector from :pushpin: Italy.
 <div id="header" align="left">
 
-- :seedling: My typical workday involves extensive Excel usage (especially SUM.IF, VLOOKUP, INDEX MATCH, and pivot tables) and SQL (SELECT, JOINS AND WHEREs).
+- My typical workday involves extensive Excel usage (especially SUM.IF, VLOOKUP, INDEX MATCH, and pivot tables) and SQL (SELECT, JOINS AND WHEREs).
 
-- :bar_chart: Interested in data analysis, I studied 'Decision Support Systems' for my thesis.
+- Interested in data analysis, I studied 'Decision Support Systems' for my thesis.
 
-- :telescope: Always striving to improve myself and learn new skills, and i would also like to move abroad.
+- Always striving to improve myself and learn new skills, and i would also like to move abroad.
 
 - :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/cosimo-sansone993)
 
