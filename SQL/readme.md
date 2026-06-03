@@ -4,31 +4,29 @@
 
 # SQL-Projects:
 
-This repository is mainly for projects I have done to practice.
-There are two folders: in the Data_cleaning folder you can find projects focused almost exclusively on data cleaning
-while in the Eda folder you can find a more extensive exploratory analysis.
+TThis repository contains SQL projects developed to strengthen my data analysis and data manipulation skills.
+
+It is divided into two main areas:
 
 ## Data Cleaning
 
-Subjects Covered:
-* Basic SQL: Select,Where, complex queries 
-* Data manipulation: Insert, Update, Delete
-* Data definition
-* Date format manipulation
-* Quering with group by, having, order by
-* CTE's
-* Joins
-* Window Functions: over, row_number
+Projects focused on preparing and transforming raw data into structured and usable formats.
 
-## EDA (Exploratory Data Analysis
+Main activities:
+- Writing queries to extract and clean data
+- Handling missing or inconsistent values
+- Data transformation and standardization
+- Use of joins, CTEs and window functions
+- Managing data structures and formats (including date manipulation)
 
-Subjects Covered:
-* Basic SQL: Select,Where, complex queries 
-* Data manipulation: Insert, Update, Delete
-* Quering with group by, having, order by, SUBQUERIES
-* DATA Aggregation Functions: SUM, AVG
-* Alias
-* CTE's
-* Data Analysis
-* Window Functions: over, dense_rank
+## Exploratory Data Analysis (EDA)
+
+Projects focused on exploring datasets to extract insights and support data-driven decisions.
+
+Main activities:
+- Writing complex queries for data exploration
+- Data aggregation and calculation (SUM, AVG, etc.)
+- Use of subqueries, CTEs and window functions
+- Identifying trends, patterns and anomalies in data
+- Structuring queries to support analytical reasoning
 
