@@ -21,12 +21,23 @@ Main activities:
 
 ## Exploratory Data Analysis (EDA)
 
-Projects focused on exploring datasets to extract insights and support data-driven decisions.
 
-Main activities:
-- Writing complex queries for data exploration
-- Data aggregation and calculation (SUM, AVG, etc.)
-- Use of subqueries, CTEs and window functions
-- Identifying trends, patterns and anomalies in data
-- Structuring queries to support analytical reasoning
+## Exploratory Data Analysis (EDA)
+
+This folder contains SQL-based exploratory data analysis projects focused on extracting insights from structured datasets.
+
+The goal of these projects is to analyze cleaned data from multiple perspectives in order to identify trends, patterns and key metrics useful for understanding real-world business scenarios.
+
+The analyses typically include:
+
+- Aggregation of data across different dimensions (e.g. company, industry, country, time)
+- Trend analysis over time (daily, monthly, yearly)
+- Identification of top performers or most impacted entities
+- Ranking and comparative analysis using window functions
+- Exploration of data distributions and anomalies
+
+All projects in this section follow a structured analytical approach, starting from simple queries and progressively building more advanced logic using SQL features such as CTEs, aggregations and window functions.
+
+These projects demonstrate how SQL can be used not only for data extraction, but also as a tool to support analytical reasoning and generate business insights from data.
+``
 
