@@ -21,9 +21,6 @@ Main activities:
 
 ## Exploratory Data Analysis (EDA)
 
-
-## Exploratory Data Analysis (EDA)
-
 This folder contains SQL-based exploratory data analysis projects focused on extracting insights from structured datasets.
 
 The goal of these projects is to analyze cleaned data from multiple perspectives in order to identify trends, patterns and key metrics useful for understanding real-world business scenarios.
