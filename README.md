@@ -10,14 +10,16 @@ Hello  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" wid
   ---
 
 ### :man_technologist: About Me :
-- :chart_with_upwards_trend:	I am an Analyst, currently employed in the banking sector from :pushpin: Italy.
+- :chart_with_upwards_trend:	I am a Business Analyst with experience in data analysis and process management, currently working in the banking sector in :pushpin: Italy.
 <div id="header" align="left">
 
-- My typical workday involves extensive Excel usage (especially SUM.IF, VLOOKUP, INDEX MATCH, and pivot tables) and SQL (SELECT, JOINS AND WHEREs).
+- My daily work involves data analysis using Excel (SUM.IF, VLOOKUP, INDEX MATCH, pivot tables) and SQL (joins, filtering, data extraction), supporting business needs and problem solving.
 
-- Interested in data analysis, I studied 'Decision Support Systems' for my thesis.
+- I have a strong interest in data analysis, supported by an experimental thesis in Decision Support Systems, where I analyzed a dataset using Python and its libraries.
 
-- Always striving to improve myself and learn new skills, and i would also like to move abroad.
+- I am used to working in complex environments, analyzing data, identifying issues and translating requirements into actionable solutions.
+  
+- Always striving to improve my skills and open to international opportunities.
 
 - :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/cosimo-sansone993)
 
