@@ -1,0 +1,72 @@
+
+# Data Analysis with Excel (Functions - Pivot - Interactive Dashboard)
+
+## Overview
+
+This project showcases an end-to-end data analysis workflow performed in Excel, starting from raw data and progressing through data preparation, enrichment, and final analysis using pivot tables.
+
+The goal is to demonstrate how to transform unstructured data into meaningful insights using Excel functions and analytical tools.
+
+## Dataset
+
+The file contains:
+
+- A raw dataset with transactional records (e.g. IDs, dates, quantities)
+- Reference tables with additional information related to the main dataset
+- A working sheet where data is cleaned and enriched
+- Pivot tables used for summarization and analysis
+
+## Data Preparation
+
+The raw data was processed and enriched using Excel formulas:
+
+- Lookup functions (INDEX/MATCH or VLOOKUP) to combine data from multiple tables  
+- Conditional logic (IF statements) to standardize and categorize values  
+- Data cleaning to handle missing or inconsistent values  
+- Formatting adjustments (dates, text, numeric fields)
+
+The result is a structured dataset ready for analysis.
+
+## Analysis
+
+Pivot tables were used to:
+
+- Aggregate data across different dimensions (e.g. time, category, entity)
+- Identify key patterns and trends
+- Compare values across groups
+- Support exploration of the dataset from multiple perspectives
+
+## Dashboard
+
+The final sheet includes an **interactive dashboard** built on top of pivot tables and visual elements.
+
+- Provides a clear and immediate overview of key metrics  
+- Includes interactive filters/slicers to explore the data dynamically  
+- Allows users to drill down into specific segments without modifying the underlying data  
+- Enhances data readability through charts and structured layouts  
+
+This layer transforms the analysis into a user-friendly reporting tool suitable for business use.
+
+## Key Concepts Demonstrated
+
+- Data normalization and enrichment  
+- Use of advanced Excel formulas  
+- Joining datasets without external tools  
+- Aggregation and summarization with pivot tables  
+- Building a structured analysis flow from raw data  
+
+
+## How to Use
+
+1. Review the raw dataset to understand the initial structure  
+2. Explore the working sheet to see how data is transformed  
+3. Interact with pivot tables to analyze trends and patterns  
+4. Extend the analysis by adding new pivots or dimensions  
+
+## Purpose
+
+This project demonstrates practical skills in:
+
+- Data preparation  
+- Data analysis  
+- Data Visualization and reporting  
