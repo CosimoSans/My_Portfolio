@@ -1,71 +1,68 @@
-Data Analysis with Excel (Functions - Pivot - Interactive Dashboard)
 
-## Overview
+**Data Analysis with Excel (Functions & Pivot Tables)**
+
+**Overview**
 
 This project showcases an end-to-end data analysis workflow performed in Excel, starting from raw data and progressing through data preparation, enrichment, and final analysis using pivot tables.
 
-The goal is to demonstrate how to transform unstructured data into meaningful insights using Excel functions and analytical tools.
+The goal is to transform unstructured data into meaningful insights using Excel functions and analytical tools.
 
-## Dataset
+**Dataset**
 
 The file contains:
 
-- A raw dataset with transactional records (e.g. IDs, dates, quantities)
-- Reference tables with additional information related to the main dataset
-- A working sheet where data is cleaned and enriched
-- Pivot tables used for summarization and analysis
+- A raw dataset with transactional records  
+- Reference tables with additional information  
+- A working sheet where data is cleaned and enriched  
+- Pivot tables used for summarization  
+- A final interactive dashboard for visualization  
 
-## Data Preparation
+**Data Preparation**
 
 The raw data was processed and enriched using Excel formulas:
 
-- Lookup functions (INDEX/MATCH or VLOOKUP) to combine data from multiple tables  
+- Lookup functions (INDEX/MATCH or similar) to combine data from multiple tables  
 - Conditional logic (IF statements) to standardize and categorize values  
 - Data cleaning to handle missing or inconsistent values  
-- Formatting adjustments (dates, text, numeric fields)
+- Formatting adjustments for dates, text, and numeric fields  
 
 The result is a structured dataset ready for analysis.
 
-## Analysis
+**Analysis**
 
 Pivot tables were used to:
 
-- Aggregate data across different dimensions (e.g. time, category, entity)
-- Identify key patterns and trends
-- Compare values across groups
-- Support exploration of the dataset from multiple perspectives
+- Aggregate data across different dimensions  
+- Identify patterns and trends  
+- Compare values across groups  
+- Support exploration of the dataset from multiple perspectives  
 
-## Dashboard
+**Dashboard**
 
-The final sheet includes an **interactive dashboard** built on top of pivot tables and visual elements.
+The final sheet contains an interactive dashboard built on top of pivot tables and charts.
 
-- Provides a clear and immediate overview of key metrics  
-- Includes interactive filters/slicers to explore the data dynamically  
-- Allows users to drill down into specific segments without modifying the underlying data  
-- Enhances data readability through charts and structured layouts  
+- Provides a clear overview of key metrics  
+- Includes filters and slicers for dynamic data exploration  
+- Allows quick drill-down into specific segments  
+- Improves readability through visual elements and structured layout  
 
-This layer transforms the analysis into a user-friendly reporting tool suitable for business use.
+This layer turns the analysis into a user-friendly reporting tool.
 
-## Key Concepts Demonstrated
+**Key Concepts Demonstrated**
 
-- Data normalization and enrichment  
-- Use of advanced Excel formulas  
-- Joining datasets without external tools  
-- Aggregation and summarization with pivot tables  
-- Building a structured analysis flow from raw data  
+- Data preparation and enrichment  
+- Use of Excel formulas  
+- Dataset integration  
+- Aggregation with pivot tables  
+- Interactive dashboard design  
 
+**How to Use**
 
-## How to Use
+1. Review the raw dataset  
+2. Explore the transformation steps in the working sheet  
+3. Analyze the pivot tables  
+4. Use the dashboard to explore insights  
 
-1. Review the raw dataset to understand the initial structure  
-2. Explore the working sheet to see how data is transformed  
-3. Interact with pivot tables to analyze trends and patterns  
-4. Extend the analysis by adding new pivots or dimensions  
+**Purpose**
 
-## Purpose
-
-This project demonstrates practical skills in:
-
-- Data preparation  
-- Data analysis  
-- Data Visualization and reporting  
+This project demonstrates practical skills in data analysis, data quality, and reporting using Excel.
