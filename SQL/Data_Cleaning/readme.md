@@ -1,56 +1,88 @@
-## Data Cleaning Projects – SQL
 
-This project focuses on cleaning and preparing raw datasets using SQL, transforming inconsistent and unstructured data into reliable and analysis-ready formats.
+# SQL Data Cleaning Projects
 
-The work is based on two different real-world datasets (housing data and layoffs data), allowing the application of similar data cleaning techniques on different types of data structures and business contexts.
+This section contains SQL projects focused on data cleaning and data preparation using real-world style datasets.
 
-In both cases, the original tables were preserved by working on staging copies, following a structured and repeatable data cleaning approach.
+The goal of these projects is to simulate a typical data analyst workflow, where raw and inconsistent data must be transformed into clean, structured, and analysis-ready datasets.
 
-### Objectives
+---
 
-The main objectives across the datasets were:
+## What These Projects Show
 
-- Remove duplicate records
-- Standardize inconsistent values and formats
-- Handle missing or blank data
-- Restructure and improve data organization
-- Remove unnecessary or redundant columns
+These projects demonstrate how SQL can be used to:
 
-### Approach
+- clean and transform raw datasets  
+- improve data quality and consistency  
+- prepare data for further analysis  
+- apply structured logic to real-world data problems  
 
-A structured, step-by-step process was followed in both datasets:
+They reflect a practical workflow commonly used in data analysis:
 
-- Creation of staging tables to avoid modifying original data
-- Identification and removal of duplicates using window functions (ROW_NUMBER)
-- Standardization of categorical values (e.g. Y/N → Yes/No, consistent labeling of industries)
-- Cleaning of textual data (trimming spaces, correcting inconsistencies)
-- Conversion of date formats into standardized SQL DATE format
-- Handling missing and blank values by leveraging existing data relationships
-- Splitting and reorganizing columns (e.g. breaking down address fields into structured components)
-- Removal of unnecessary columns and reorganization of table structure
+1. inspect raw data  
+2. create staging tables  
+3. clean and standardize the dataset  
+4. remove inconsistencies and duplicates  
+5. produce a final cleaned dataset ready for analysis  
 
-The implementation required the use of advanced SQL features, including:
+---
 
-- Window functions (ROW_NUMBER)
-- CTEs
-- Joins
-- String manipulation functions
-- Conditional logic (CASE statements)
-- Date and format manipulation
-- Aggregation and filtering techniques
+## Projects Included
 
-### Results & Key Takeaways
+### 1. Nashville Housing Data Cleaning
+A data cleaning project on housing transaction data.
 
-After the cleaning process, both datasets became more consistent, structured and suitable for further analysis.
+Focus areas:
+- date standardization  
+- data normalization (Yes/No values)  
+- duplicate detection and removal  
+- handling missing values  
+- splitting address fields into structured columns  
+- reshaping the dataset into a cleaner format  
 
-Key improvements include:
+---
 
-- Removal of duplicate data and inconsistencies
-- Standardized formats across categorical and date fields
-- Improved handling of missing values
-- Better organization of data through structured columns
-- Increased overall data quality and reliability
+### 2. World Layoffs Data Cleaning
+A data cleaning project based on layoffs data across companies and countries.
 
-This project demonstrates how similar data cleaning methodologies can be applied across different datasets, highlighting the importance of a systematic approach when dealing with raw data.
+Focus areas:
+- duplicate removal using window functions  
+- standardization of company, industry, and country values  
+- date formatting and conversion  
+- handling NULL and blank values  
+- data consistency checks across records  
 
-It also reflects a typical real-world data workflow, where transforming raw data into a clean and usable format is a necessary step before any analytical activity.
+---
+
+## Techniques Used
+
+Across the projects, the following SQL techniques are applied:
+
+- `ROW_NUMBER()` for duplicate detection  
+- `CTE` (Common Table Expressions)  
+- `JOIN` operations for data correction  
+- `CASE WHEN` for standardization  
+- string functions (`TRIM`, `SUBSTRING`, `LOCATE`)  
+- date functions (`STR_TO_DATE`)  
+- use of staging tables  
+- data transformation and restructuring  
+
+---
+
+## Why Data Cleaning Matters
+
+Data cleaning is a critical step in any data analysis process.
+
+Raw datasets are often:
+- incomplete  
+- inconsistent  
+- duplicated  
+- poorly formatted  
+
+These projects show how SQL can be used to solve these issues and turn raw data into reliable datasets that can support business analysis and decision-making.
+
+---
+
+## Tools Used
+
+- MySQL  
+- SQL (Data Cleaning & Transformation)  
