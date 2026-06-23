@@ -36,5 +36,4 @@ The analyses typically include:
 All projects in this section follow a structured analytical approach, starting from simple queries and progressively building more advanced logic using SQL features such as CTEs, aggregations and window functions.
 
 These projects demonstrate how SQL can be used not only for data extraction, but also as a tool to support analytical reasoning and generate business insights from data.
-``
 
